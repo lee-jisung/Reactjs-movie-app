@@ -27,7 +27,11 @@ React JS Fundamentals
 - React는 자동적으로 class component의 render method를 실행.
 - state => 변화가 필요한 data를 저장
 - setState를 사용하여 data의 변화를 처리
+
   - setState를 호출할 때 마다 react는 새로운 state와 함께 render method를 호출 => virtual DOM을 사용하여 바뀐 부분만 적용해줌
+
+- class component => state를 사용할 때 class component를 사용
+- state가 필요 없다면? function component를 사용
 
 ---
 
