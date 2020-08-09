@@ -33,6 +33,9 @@ React JS Fundamentals
 - class component => state를 사용할 때 class component를 사용
 - state가 필요 없다면? function component를 사용
 
+==> react hook이 나오면서 class compoent, function component 구분 x
+==> function component에서 react hook을 사용
+
 ---
 
 ## JSX
@@ -58,3 +61,20 @@ React JS Fundamentals
  //=> return 된 item들로 이루어진 array가 생성
  [2, 3, 4];
 ```
+
+### Reference
+
+- yts (movie json) = https://github.com/serranoarevalo/yts-proxy
+
+### Deploy
+
+- npm install gh-pages --save (gh-pages install)
+
+- package.json => "homepage" : "https://[username].github.io/[appname]/" 추가
+
+- script => "deploy" : "gh-pages -d build",
+  "predeploy" : "npm run build" 추가
+- deploy하기 전 predeloy가 먼저 실행됨 (pre를 앞에 붙이면 동일한 명령어에 대해서 먼저 실행하게 만들어 줌 )
+  - ex, start : ~~ / prestart: ~~ ==> start할 시 prestart가 먼저 실행
+
+-
